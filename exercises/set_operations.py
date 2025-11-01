@@ -21,11 +21,10 @@ def student_set_operations(set1, set2, operation):
     """
     # 请在下方编写代码
     # pass
-    match operation:
-        case "union":
-            return set1.union(set2)
-        case "intersection":
-            return set1.intersection(set2)
-        case "difference":
-            return set1.difference(set2)
+    if operation == "union":
+        return set1.union(set2)
+    elif operation == "intersection":
+        return set1.intersection(set2)
+    elif operation == "difference":
+        return set1.difference(set2)
             
