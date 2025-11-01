@@ -18,8 +18,14 @@ def get_data_types():
     """
     # 请在下方编写代码
     # 1. 创建一个整数变量，值为 42
+    int_val = 42
     # 2. 创建一个浮点数变量，值为 3.14
+    float_val = 3.14
     # 3. 创建一个字符串变量，值为 "Python编程"
+    str_val = "Python编程"
     # 4. 创建一个布尔值变量，值为 True
+    bool_val = True
     # 5. 将这些变量作为元组返回
-    pass 
+    result = (int_val, float_val, str_val, bool_val)
+    # pass 
+    return result

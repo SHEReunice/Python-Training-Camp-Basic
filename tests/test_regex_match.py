@@ -16,7 +16,6 @@ def test_find_emails():
     # 测试基本功能
     text = "联系方式: user@example.com 或者 admin@company.org"
     result = find_emails(text)
-    
     assert isinstance(result, list), "返回值应该是列表"
     assert len(result) == 2, "应该找到2个邮箱"
     assert "user@example.com" in result, "邮箱列表应该包含'user@example.com'"
